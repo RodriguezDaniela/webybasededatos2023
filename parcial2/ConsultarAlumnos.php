@@ -32,12 +32,30 @@
                         <th>Sexo</th>
                     </tr>
                     </thead>
-                </table>
+                    <tbody>
+                        <?php
+                        while($registro = $datos->fetch_assoc()){ ?>
+                        <tr>
+                            <td> <?php $registro ["id"]?></td>
+                            <td> <?php $registro ["nombre"]?></td>
+                            <td> <?php $registro ["numero_control"]?></td>
+                            <td> <?php $registro ["semestre"]?></td>
+                            <td> <?php $registro ["edad"]?></td>
+                            <td> <?php $registro ["turno"]?></td>
+                            <td> <?php $registro ["sexo"]?></td>
+                            <td>
+                                <a href="" class="btn btn-sm btn-primary">Editar</a>
+                                <a href="" class="btn btn-sm btn-primary">Eliminar</a>
+                            </td>
+                        </tr>
+                        <?php }?>
+                        </tbody>
+                        </table>
+
                 <?php }else { ?>
                     <h2>No existe datos de alumnos en la base de datos</h2>
                 <?php } ?>
 
-            ?>
             </div>
         </div>
     </div>
