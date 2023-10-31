@@ -12,8 +12,8 @@
     <div class="container">
        <div class="row">
           <div class="col-12 text-center">
-                <h2> :D Bienvenido al sistema de gestion de alumnos</h2>
-                <img src="imagenes/cetislogo.png" alt="" width="20%">
+             <h2>Bienvinido al sistema de gestion de alumnos </h2>
+                <img src="imagenes/logocetis.png" alt="" width="20%" class="img-fluid">
           </div>
        </div>
     </div>
