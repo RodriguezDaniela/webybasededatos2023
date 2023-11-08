@@ -18,4 +18,6 @@
         echo "<h2>Ocurrió un error</h2> <p>Error: " .$sql . "<br>" . $conexion->error . "</p>";
         echo "<h3><a href='consultarAlumnos.php'>Regresar a alumnos</a></h3>";
     }
+
+    
 ?>
